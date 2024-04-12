@@ -9,6 +9,31 @@
     <title>Baksa Bence</title>
 </head>
 <body>
+    <main class="container-fluid">
+    <header>
+        <h1>Listák kezelése</h1>
+    </header>
+    <div class="urlap">
+        <form>
+            <div class="mb-3 mt-3">
+              <label for="nev" class="form-label">Név:</label>
+              <input type="text" class="form-control" id="nev" placeholder="Gipsz Jakab" name="nev">
+            </div>
+            <div class="mb-3">
+              <label for="kor" class="form-label">Kor:</label>
+              <input type="number" class="form-control" id="kor" name="kor">
+            </div>
+            <div class="form-check">
+                <input type="radio" class="form-check-input" id="ferfi" name="nem" value="true" checked>Férfi
+                <label class="form-check-label" for="ferfi"></label>
+              </div>
+              <div class="form-check">
+                <input type="radio" class="form-check-input" id="no" name="nem" value="false" checked>Nő
+                <label class="form-check-label" for="no"></label>
+              </div>
+            <button type="submit" class="btn btn-primary">Hozzáad</button>
+          </form>
+    </div>
     <div id="be">
         <label for="szuro">Szűrési feltétel</label>
         <input type="text" id="szuro" name="szuro">
@@ -17,6 +42,6 @@
     <div class="adatok">
 
     </div>
-    
+</main>
 </body>
 </html>

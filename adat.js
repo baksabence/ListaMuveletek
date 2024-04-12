@@ -1,16 +1,16 @@
 export const emberekLista = [
     {
-        nev: "Jenő",
+        nev: "Béla",
         kor: 23,
         nem: true
     },
     {
-        nev: "Juli",
+        nev: "Géza",
         kor: 33,
         nem: false
     },
     {
-        nev: "Géza",
+        nev: "Jenő",
         kor: 13,
         nem: true
     },
@@ -20,12 +20,7 @@ export const emberekLista = [
         nem: false
     },
     {
-        nev: "Juli",
-        kor: 33,
-        nem: false
-    },
-    {
-        nev: "Juli",
+        nev: "Ádám",
         kor: 33,
         nem: false
     },
