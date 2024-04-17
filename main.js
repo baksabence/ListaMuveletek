@@ -1,6 +1,7 @@
 import { emberekLista } from "./adat.js";
 import { rendez, szures, torol } from "./adatkezelo.js";
 import { htmlOsszeallit, megjelenit } from "./listaMegjelenit.js";
+import { ujAdat } from "./urlapKezelo.js";
 
 
 /* jelenitsuk meg a listankat egy tablazatban, majd a listat tudjuk rendezni pl nev szerint, 
@@ -29,7 +30,7 @@ init(emberekLista)
 szuresEsemeny()
 
 
-function init(lista){ 
+export function init(lista){ 
 
     megjelenit(htmlOsszeallit(lista))
     rendezEsemeny()
@@ -70,3 +71,5 @@ function torolEsemeny(emberekLista, id){
 })
 
 }
+
+ujAdat(emberekLista);
